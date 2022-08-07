@@ -13,28 +13,29 @@
   align-items: center;
   justify-content: center;
 }
-.main h2 {
+.main .timer {
   width: 200px;
   height: 200px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border-radius: 50%;
   box-shadow: 0 0 20px crimson;
   margin: 20px;
 }
-.main .btns button {
-  font-size: 18px;
-  background-color: transparent;
-  color: crimson;
+.main .btns button{
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 20px;
   border-color: crimson;
-  padding: 5px 10px;
-  border-radius: 10px;
-  margin: 0 10px;
+  color: crimson;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
   transition: all 0.3s;
 }
-.main .btns button:hover {
+.main .btns button:hover{
   color: rgb(25, 25, 25);
   background-color: crimson;
 }
